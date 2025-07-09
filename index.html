@@ -1,0 +1,45 @@
+<!doctype HTML>
+<html>
+<head>
+<title>Student Registration form</title>
+<style type="text/css">
+form { width: 350px; }
+label { float: left; width: 150px; }
+input[type=text] { float: right; width: 200px; }
+input[type=date] { float: right; width: 200px; }
+input[type=number] { float: right; width: 200px; }
+input[type=email] { float: right; width: 200px; }
+</style>
+</head>
+<body>
+<table border="1" align = "center" cellpadding = "10" width = "50%" height = "50%" cellspacing = "0">
+<tr style="background-color: aqua">
+<td>
+<p align ="center" style = "color:darkblue;font-size: 24px">Student Registration Form</p>
+</tr>
+<tr style="background-color: cyan">
+<td align = "center">
+<form>
+Student Name :<input type = "text" name = "stuname"><br>
+<br>Roll Number : <input type = "text" name = "rollno" maxlength="10"><br>
+<br>Father Name :<input type="text" name="fname"><br>
+<br>Mother Name :<input type = "text" name = "mname"><br>
+<br>D.O.B : <input type="date" name="dob"><br>
+<br>Phone Number :<input type="number"name = "telephone" maxlength="10"><br>
+<br>Email ID :<input type="email" name = "mailid"><br>
+<br>Gender :<input type="radio" name = "gender"> Male
+<input type="radio" name = "gender"> Female
+<input type="radio" name = "gender"> Other<br>
+<br>Address: <textarea></textarea>
+<br>Subjects :<input type="checkbox" name = "sub1"> C
+<input type="checkbox" name = "sub1"> C++
+<input type="checkbox" name = "sub1"> Java
+<input type="checkbox" name = "sub1"> DBMS
+<br>
+<input type="submit" value = "submit"><input type="reset" value="clear">
+</form>
+</td>
+</tr>
+</table>
+</body>
+</html>
